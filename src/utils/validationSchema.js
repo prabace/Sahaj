@@ -46,7 +46,7 @@ export const registerCustomerValidationSchema = {
         "lastName must be min 3 characters and max 20 characters long",
     },
   },
-  phoneNumer: {
+  phoneNumber: {
     notEmpty: {
       errorMessage: "Phone Number cannot be empty",
     },
