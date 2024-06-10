@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node ./dist/index.js",
+    "start": "node ./dist/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "repository": {
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
+    "mongoose": "^8.4.1",
     "nodemon": "^3.1.0"
   }
 }
