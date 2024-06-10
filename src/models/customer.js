@@ -27,7 +27,7 @@ const customerUserSchema = new Schema({
     unique: true,
   },
   address: {
-    type: string,
+    type: String,
     required: true,
   },
 });
